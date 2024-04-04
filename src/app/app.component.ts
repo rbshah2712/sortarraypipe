@@ -7,4 +7,20 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'sortarraypipe';
+  items = [
+    {
+      name:'TV',
+      price:2000
+   },
+   {
+      name:'Freeze',
+      price:500
+  },
+  
+    {
+      name:'Mobile',
+      price:1500
+    }
+  
+];
 }
